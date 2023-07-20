@@ -28,8 +28,22 @@
 #include <stdio.h>
 
 int main() {
-
+    char EmployeesID [11];
+    int Workinghrs;
+    float Salaryhrs;
     //--| YOUR CODE HERE
+    printf("Input the Employees ID(Max. 10 chars):");
+    scanf("%s, EmployeesID");
 
+    printf("Input the working hrs: ");
+    scanf("%d, &Workinghrs");
+
+    printf("Salary amount/hr:: ");
+    scanf("%f, &Salarhrs");
+
+    float Sum = Workinghrs * Salaryhrs;
+
+    printf("\nEmployeesID = %s\n", EmployeesID);
+    printf("Salary = U$ %.2f\n", Sum);
     return 0 ;
 }//end main function
