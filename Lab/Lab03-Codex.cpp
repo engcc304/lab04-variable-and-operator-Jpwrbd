@@ -14,10 +14,10 @@ void main(int) {
     while(strcmp(CustomerName,"QUIT")!=0)
     i = 0;
     printf("Enter name, quantity, and price for item %d [END 0 0] : ",i+1)
-    scan("%s %d %f", Name[i],  &quantity[i], UnitPrice[i]);
+    scanf("%s %d %f", Name[i],  &quantity[i], UnitPrice[i]);
     while(strcmp(Name[i],"END") != 0){
     i++;
-    print("Enter name, quantity, and price for item %d [END 0 0] : ", i+1);
+    printf("Enter name, quantity, and price for item %d [END 0 0] : ", i+1);
     scanf("%s %d %f", Name[i], &Quantity[i], &Unitprice[i])
     NumberOfItems = i;
 }

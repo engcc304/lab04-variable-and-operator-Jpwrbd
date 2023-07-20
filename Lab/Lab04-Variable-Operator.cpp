@@ -29,7 +29,25 @@
 
 int main() {
 
-    //--| YOUR CODE HERE
+    char id[10];
+    float timework;
+    float money ;
+
+    printf("Input the Employees ID(Max. 10 chars):\n");
+    scanf( "%s",&id);
+
+    printf("Input the working hrs:\n");
+    scanf( "%f",&timework);
+
+    printf("Salary amount/hr :\n");
+    scanf( "%f" , &money);
+    
+
+    float sum;
+    sum = timework*money;
+
+    printf("Expected Output:\nEmployees ID = %s\n",id);
+    printf("Salary = U$ %0.2f",sum);
 
     return 0 ;
 }//end main function
