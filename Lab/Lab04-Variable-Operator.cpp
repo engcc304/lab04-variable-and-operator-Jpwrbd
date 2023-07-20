@@ -32,14 +32,14 @@ int main() {
     int workinghrs;
     float salaryhrs;
     //--| YOUR CODE HERE
-    printf("Input the Employees ID(Max. 10 chars):");
-    scanf("%s, employeesID");
+    printf("Input the Employees ID(Max. 10 chars): ");
+    scanf("%s", employeesID);
 
     printf("Input the working hrs: ");
-    scanf("%d, &workinghrs");
+    scanf("%d", &workinghrs);
 
-    printf("Salary amount/hr:: ");
-    scanf("%f, &salarhrs");
+    printf("Salary amount/hr: ");
+    scanf("%f", &salarhrs);
 
     float Sum = workinghrs * salaryhrs;
 
