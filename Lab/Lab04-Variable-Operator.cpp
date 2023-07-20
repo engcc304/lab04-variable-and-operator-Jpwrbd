@@ -29,14 +29,14 @@
 
 int main() {
     char employeesID[11];
-    int workinghrs;
+    float workinghrs;
     float salaryhrs;
     //--| YOUR CODE HERE
     printf("Input the Employees ID(Max. 10 chars):");
     scanf("%s",employeesID);
 
     printf("Input the working hrs:");
-    scanf("%d",&workinghrs);
+    scanf("%f",&workinghrs);
 
     printf("Salary amount/hr:");
     scanf("%f",&salaryhrs);
