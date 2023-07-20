@@ -41,9 +41,9 @@ int main() {
     printf("Salary amount/hr: \n");
     scanf("%f", &salaryhrs);
 
-    float Sum = workinghrs * salaryhrs;
+    float salaryhrs = workinghrs * salaryhrs;
 
     printf("\nemployeesID = %s\n", employeesID);
-    printf("salary = U$ %.2f\n", Sum);
+    printf("salary = U$ %.2f\n", salaryhrs);
     return 0 ;
 }//end main function
