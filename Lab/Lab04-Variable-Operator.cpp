@@ -44,7 +44,7 @@ int main() {
     float Total;
     Total = workinghrs * salaryhrs;
 
-    printf("\nemployeesID = %s\n",employeesID);
+    printf("Expected Output:\nEmployeesID = %s\n",employeesID);
     printf("Salary = U$ %0.2f\n",Total);
     return 0 ;
 }//end main function
