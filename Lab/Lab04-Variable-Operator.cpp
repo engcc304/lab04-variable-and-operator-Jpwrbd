@@ -28,17 +28,17 @@
 #include <stdio.h>
 
 int main() {
-    char employeesID[11];
+    char employeesID[10];
     float workinghrs;
     float salaryhrs;
     //--| YOUR CODE HERE
-    printf("Input the Employees ID(Max. 10 chars):");
+    printf("Input the Employees ID(Max. 10 chars):\n");
     scanf("%s",&employeesID);
 
-    printf("Input the working hrs:");
+    printf("Input the working hrs:\n");
     scanf("%f",&workinghrs);
 
-    printf("Salary amount/hr:");
+    printf("Salary amount/hr:"\n);
     scanf("%f",&salaryhrs);
 
     float Total;
