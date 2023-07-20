@@ -33,7 +33,7 @@ int main() {
     float salaryhrs;
     //--| YOUR CODE HERE
     printf("Input the Employees ID(Max. 10 chars):");
-    scanf("%s",employeesID);
+    scanf("%s",&employeesID);
 
     printf("Input the working hrs:");
     scanf("%f",&workinghrs);
